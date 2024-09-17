@@ -1,0 +1,21 @@
+{
+	"manifest_version": 3,
+	"name": "WordPress Block Inserter Hotkey",
+	"version": "1.0",
+	"description": "Trigger WordPress Toggle Block Inserter using Command+Shift+X key.",
+	"permissions": [
+		"activeTab",
+		"scripting"
+	],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"commands": {
+		"toggle-block-inserter": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+X"
+			},
+			"description": "Trigger block inserter button"
+		}
+	}
+}
